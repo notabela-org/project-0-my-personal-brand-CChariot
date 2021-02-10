@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto";
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url(https://i0.wp.com/westernslopewebdesignco.com/wp-content/uploads/2016/03/Blurred-Background-Sunset-3c-Free.jpg?ssl=1);
+  background-repeat: repeat;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.4;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.about {
+  background-size: cover;
+  box-shadow: 0 0 7px #00000070;
+  text-align: center;
+}
+
+.top-section {
+  padding-top: 50px;
+}
+
+.top-section .img-p {
+  display: flex;
+  align-items: center;
+}
+
+.top-section img {
+  position: relative;
+  top: 23px;
+  width: 10%;
+  border-radius: 100%;
+}
+
+.top-section h2 {
+  font-size: xxx-large;
+  color: rgb(0, 0, 0);
+}
+.top-section p {
+  margin: 5px 0 5px 0;
+}
+
+.top-section .info {
+  position: relative;
+  top: 18px;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.top-section .email {
+  position: relative;
+  top: 18px;
+  font-size: 20px;
+}
+
+.bottom-section {
+  padding: 20px;
+  display: block;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #000000;
+  font-style: normal;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
