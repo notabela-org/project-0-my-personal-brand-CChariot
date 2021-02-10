@@ -41,31 +41,31 @@ body {
   text-align: center;
 }
 
-.top-section {
+.about .top-section {
   padding-top: 50px;
 }
 
-.top-section .img-p {
+.about .top-section .img-p {
   display: flex;
   align-items: center;
 }
 
-.top-section img {
+.about .top-section img {
   position: relative;
   top: 23px;
   width: 10%;
   border-radius: 100%;
 }
 
-.top-section h2 {
+.about .top-section h2 {
   font-size: xxx-large;
   color: rgb(0, 0, 0);
 }
-.top-section p {
+.about .top-section p {
   margin: 5px 0 5px 0;
 }
 
-.top-section .info {
+.about .top-section .info {
   position: relative;
   top: 18px;
   font-size: 23px;
@@ -74,13 +74,13 @@ body {
   margin-bottom: 30px;
 }
 
-.top-section .email {
+.about .top-section .email {
   position: relative;
   top: 18px;
   font-size: 20px;
 }
 
-.bottom-section {
+.about .bottom-section {
   padding: 20px;
   display: block;
   align-items: center;
@@ -89,4 +89,40 @@ body {
   font-style: normal;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects {
+  background: rgba(127, 255, 212, 0.3);
+  padding: 30px;
+  margin: 30px;
+  border-radius: 20px;
+  font-size: larger;
+}
+
+.project-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: mediumblue;
+  padding: 10px;
+  background-color: rgba(214, 219, 250, 0.2);
+  border-radius: 20px;
+}
+
+.project-item {
+  text-align: left;
+  padding-left: 5px;
+  margin-left: 50px;
+  margin-top: -2px;
+  border-left: 3px solid #3904f8;
+  position: relative;
+  font-size: 25px;
+}
+
+.project-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
