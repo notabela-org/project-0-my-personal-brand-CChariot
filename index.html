@@ -9,126 +9,130 @@
     <script src="https://kit.fontawesome.com/5bef520ca9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="navbar">
+    <!-- Side navigation -->
+    <div class="sidenav">
         <a href="#about">About</a>
         <a href="#projects">Project</a>
         <a href="#experiences">Work Experiences</a>
         <a href="#contact-me">Contact Me</a>
         <a href="#dog">My Best Friend</a>
-      </div>
-    <div class="about fade-in" id="about" >
-        <div class="top-section">
+    </div>
+  
+    <!-- Page content -->
+    <div class="main">
+        <div class="about fade-in round-border" id="about" >
+            <div class="top-section">
+                <hr>
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH8xQRIdnQxjA/profile-displayphoto-shrink_400_400/0/1579795480342?e=1618444800&v=beta&t=_ravwmWZpRChOBLSszaIKYZ3C4oayDuuN2w4QW3pdsU" alt="Personal Picture">
+                <p class="info">
+                    <strong style="font-size: 27px;">Name:</strong>
+                    Lihan Zhan
+                </p>
+                
+                <p class="info">
+                    <strong style="font-size: 27px;">Field of Study:</strong>
+                    Computer Science
+                </p>
+    
+                <p class="info">
+                    <strong style="font-size: 27px;">School:</strong>
+                    The City College of New York
+                </p>
+            </div>
             <hr>
-            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH8xQRIdnQxjA/profile-displayphoto-shrink_400_400/0/1579795480342?e=1618444800&v=beta&t=_ravwmWZpRChOBLSszaIKYZ3C4oayDuuN2w4QW3pdsU" alt="Personal Picture">
-            <p class="info">
-                <strong style="font-size: 27px;">Name:</strong>
-                Lihan Zhan
-            </p>
-            
-            <p class="info">
-                <strong style="font-size: 27px;">Field of Study:</strong>
-                Computer Science
-            </p>
-
-            <p class="info">
-                <strong style="font-size: 27px;">School:</strong>
-                The City College of New York
-            </p>
+            <div class="bottom-section">
+                <h2 style="color:indigo;">About Me</h2>
+                <p>Undergraduate Computer Science Senior with strong passion in Software Engineering. I have extensive hands-on experience in software development and technical applications. Strong skills in
+                backend development using Java/Python. A competent, resourceful, and self-motivated individual who has a great passion for technology and
+                innovations and an excellent sense of communication and teamwork.</p>
+            </div> 
         </div>
-        <hr>
-        <div class="bottom-section">
-            <h2 style="color:indigo;">About Me</h2>
-            <p>Undergraduate Computer Science Senior with strong passion in Software Engineering. I have extensive hands-on experience in software development and technical applications. Strong skills in
-            backend development using Java/Python. A competent, resourceful, and self-motivated individual who has a great passion for technology and
-            innovations and an excellent sense of communication and teamwork.</p>
-        </div> 
-    </div>
-
-    <div class="projects" id="projects">
-        <strong class="project-title">Selected Personal & Academic Projects</strong>
-            <div class="project-item">
-              <h3>Online Blackjack Application(Individual) </h3>
-              <h4>05/20-08/20</h4>
-              <ul>
-                <li>Implemented different Object-Oriented design patterns: Singleton, Factory, Abstract Factory, Bridge, Iterator.</i></li>
-                <li>Applied 4 different AI strategies for hit logic that increased win rate by 40-60%.</li>
-                <li>Allowed client/server gaming experience using socket programming, exchanged game information by
-                    customized APIs and object serialization.</li>
-                <li>Broadcast online status and player information by utilizing Apache Commons Lang</li>
-                <li>Followed Agile Methodology to plan, evaluate, design, develop and test application.</li>
-                <li>Achieved automated testing using Jenkins. </li>
-                <li>Technology and tools used: Java, Jenkins, Apache</li>
-              </ul>
+    
+        <div class="projects round-border" id="projects">
+            <strong class="project-title">Selected Personal & Academic Projects</strong>
+                <div class="project-item">
+                  <h3>Online Blackjack Application(Individual) </h3>
+                  <h4>05/20-08/20</h4>
+                  <ul>
+                    <li>Implemented different Object-Oriented design patterns: Singleton, Factory, Abstract Factory, Bridge, Iterator.</i></li>
+                    <li>Applied 4 different AI strategies for hit logic that increased win rate by 40-60%.</li>
+                    <li>Allowed client/server gaming experience using socket programming, exchanged game information by
+                        customized APIs and object serialization.</li>
+                    <li>Broadcast online status and player information by utilizing Apache Commons Lang</li>
+                    <li>Followed Agile Methodology to plan, evaluate, design, develop and test application.</li>
+                    <li>Achieved automated testing using Jenkins. </li>
+                    <li>Technology and tools used: Java, Jenkins, Apache</li>
+                  </ul>
+                </div>
+    
+                <div class="project-item">
+                  <h3>Email Subscription System(Individual) </h3>
+                  <h4>04/20-07/20</h4>
+                  <ul>
+                    <li>Communicate data from Mongo database to React Application, route user requests on the front end with React
+                        Router on the backend with Express</li>
+                    <li>Build reusable user inputs with Redux Form, complete with navigation</li>
+                    <li>Enhanced authentication flows with Google OAuth authentication</li>
+                    <li>Accept and process credit card payments from users using Stripe. </li>
+                    <li>Technology and tools used: React, NodeJS, MongoDB, Google OAuth, Stripe</li>
+                  </ul>
+                </div>
+        </div>
+    
+        <div class="experiences round-border" id="experiences">
+            <strong>Work Experiences</strong>
+            <div>
+                <h2>Data Analyst Intern -- National Grid</h2>
+                <p>07/20-08/20</p>
+                <ul>
+                    <li>Developed Python script for Excel Automation using Openpyxl.</li>
+                    <li>Reduced semi-annual billing creation period by 75%, diminished 90% billing error rate.</li>
+                    <li>Utilized Numpy, Pandas and Matplotlib to create pair-wise exploration, linear regression, polynomial regression,
+                    and stepwise regression models using internal data.</li>
+                    <li>Create and maintain a Power BI dashboard that visualizes data from multiple sources which portrays team’s end-toend process.</li>
+                    <li>Technology and tools used: Python, Power BI</li>
+                </ul>
+                
             </div>
-
-            <div class="project-item">
-              <h3>Email Subscription System(Individual) </h3>
-              <h4>04/20-07/20</h4>
-              <ul>
-                <li>Communicate data from Mongo database to React Application, route user requests on the front end with React
-                    Router on the backend with Express</li>
-                <li>Build reusable user inputs with Redux Form, complete with navigation</li>
-                <li>Enhanced authentication flows with Google OAuth authentication</li>
-                <li>Accept and process credit card payments from users using Stripe. </li>
-                <li>Technology and tools used: React, NodeJS, MongoDB, Google OAuth, Stripe</li>
-              </ul>
+    
+            <div>
+                <h2>Software Engineer Intern -- Research Foundation of CUNY</h2>
+                <p>05/19-08/19</p>
+                <ul>
+                    <li>Developed computational toolbox for Laser Doppler Vibrometer (LDV) sensors using Java and MATLAB.</li>
+                    <li>Rebuilt software for Laser Doppler Vibrometer (LDV) to assign points automatically</li>
+                    <li>Revised Python code and improved voice and facial recognition accuracy in a 50 meters distance by 30-40%. </li>
+                    <li>Technology and tools used: Python, Java, MATLAB.</li>
+                </ul>
+                
             </div>
-    </div>
-
-    <div class="experiences" id="experiences">
-        <strong>Work Experiences</strong>
-        <div>
-            <h2>Data Analyst Intern -- National Grid</h2>
-            <p>07/20-08/20</p>
-            <ul>
-                <li>Developed Python script for Excel Automation using Openpyxl.</li>
-                <li>Reduced semi-annual billing creation period by 75%, diminished 90% billing error rate.</li>
-                <li>Utilized Numpy, Pandas and Matplotlib to create pair-wise exploration, linear regression, polynomial regression,
-                and stepwise regression models using internal data.</li>
-                <li>Create and maintain a Power BI dashboard that visualizes data from multiple sources which portrays team’s end-toend process.</li>
-                <li>Technology and tools used: Python, Power BI</li>
-            </ul>
-            
         </div>
-
-        <div>
-            <h2>Software Engineer Intern -- Research Foundation of CUNY</h2>
-            <p>05/19-08/19</p>
-            <ul>
-                <li>Developed computational toolbox for Laser Doppler Vibrometer (LDV) sensors using Java and MATLAB.</li>
-                <li>Rebuilt software for Laser Doppler Vibrometer (LDV) to assign points automatically</li>
-                <li>Revised Python code and improved voice and facial recognition accuracy in a 50 meters distance by 30-40%. </li>
-                <li>Technology and tools used: Python, Java, MATLAB.</li>
-            </ul>
-            
+    
+        <div class="contact-me" id="contact-me" >
+            <div class="social round-border">
+                <strong> Connect With Me: </strong>
+                <p class="email">
+                    <strong style="font-size: 25px;">Email:  </strong>
+                    lzhan000@citymail.cuny.edu</p>
+                <a href="https://www.facebook.com/ben.han.522"><i class="fab fa-facebook fa-fw"></i></a>
+                <a href="https://www.linkedin.com/in/lihan-zhan-a07a6612b/"><i class="fab fa-linkedin fa-fw"></i></a>
+                <a href="https://github.com/CChariot"><i class="fab fa-github fa-fw"></i></a>
+           
+            </div>
         </div>
-    </div>
-
-    <div class="contact-me" id="contact-me" >
-        <div class="social">
-            <strong> Connect With Me: </strong>
-            <p class="email">
-                <strong style="font-size: 25px;">Email:  </strong>
-                lzhan000@citymail.cuny.edu</p>
-            <a href="https://www.facebook.com/ben.han.522"><i class="fab fa-facebook fa-fw"></i></a>
-            <a href="https://www.linkedin.com/in/lihan-zhan-a07a6612b/"><i class="fab fa-linkedin fa-fw"></i></a>
-            <a href="https://github.com/CChariot"><i class="fab fa-github fa-fw"></i></a>
-       
-        </div>
-    </div>
-
-    <div class="dog" id="dog">
-        <h1>My Best Friend: Mochi</h1>
-        <div class="column">
-          <img src="https://i.ibb.co/tBqCbR6/We-Chat-Image-20210211112556.jpg" alt="dog1" style="width:100%">
-        </div>
-        <div class="column">
-          <img src="https://i.ibb.co/mNkyvZ5/We-Chat-Image-20210211112603.jpg" alt="dog2" style="width:100%">
-        </div>
-        <div class="column">
-          <img src="https://i.ibb.co/ynLQHMs/We-Chat-Image-20210211112607.jpg" alt="dog3" style="width:100%">
-        </div>
-      </div>
+    
+        <div class="dog" id="dog">
+            <h1>My Best Friend: Mochi</h1>
+            <div class="column">
+              <img src="https://i.ibb.co/tBqCbR6/We-Chat-Image-20210211112556.jpg" alt="dog1" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="https://i.ibb.co/ynLQHMs/We-Chat-Image-20210211112607.jpg" alt="dog3" style="width:100%">
+            </div>
+          </div>
+        
+      
+    
 
 </body>
 </html>
