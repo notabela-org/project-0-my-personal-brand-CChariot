@@ -71,18 +71,18 @@ body {
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 170px; /* Set the width of the sidebar */
+  width: 8%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   left: 0;
-  top: 0px;
+  top: 0;
   background-color: rgba(75, 215, 250, 0.411);
   overflow-x: hidden; /* Disable horizontal scroll */
 }
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 125px 6px 6px 26px;
+  padding: 65% 2% 2% 10%;
   text-decoration-thickness: initial;
   font-size: 25px;
   color: #000000;
@@ -96,7 +96,7 @@ body {
 
 /* Style page content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 9%; /* Same as the width of the sidebar */
   padding: 15px 15px;
 }
 
@@ -111,13 +111,12 @@ body {
 }
 
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-top: 1%; /* Add a top margin to avoid content overlay */
 }
 
 .about {
   background-size: cover;
   box-shadow: 0 0 7px #00000070;
-
   text-align: center;
 }
 
@@ -152,12 +151,6 @@ body {
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 30px;
-}
-
-.about .top-section .email {
-  position: relative;
-  top: 18px;
-  font-size: 20px;
 }
 
 .about .bottom-section {
@@ -245,14 +238,16 @@ body {
 }
 
 .social {
-  padding: 20px;
-  margin-top: -300px;
-  margin-left: 600px;
-  font-size: 28px;
-  position: absolute;
-  top: 400px;
-  width: 25%;
-  background-color: rgba(193, 86, 255, 0.267);
+  size: 30%;
+  text-align: center;
+  padding: 30px;
+  margin: 10%;
+  font-size: larger;
+  box-shadow: 0 0 7px #00000070;
+}
+
+.social strong {
+  font-size: xxx-large;
 }
 
 .social i {
@@ -276,7 +271,6 @@ a.anchor {
 .dog-container {
   padding: 30px;
   margin: 30px;
-  margin-top: 300px;
   background-color: rgba(103, 219, 255, 0.7);
 }
 
@@ -288,22 +282,16 @@ a.anchor {
 
 .dog h1 {
   text-align: center;
+  margin-top: 10%;
   margin-right: 140px;
-  margin-top: 400px;
   font-size: xxx-large;
 }
 .dog .column {
-  color: #6342fa;
   padding: 50px;
   border-radius: 50px;
   background-color: rgba(44, 178, 255, 0.7);
+  margin-left: 6%;
   margin-top: 50px;
   float: left;
-  width: 40%;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+  width: 30%;
 }
