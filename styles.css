@@ -81,8 +81,8 @@ body {
   text-decoration: none;
   padding: 20px;
   padding-bottom: 5px;
-  padding-top: 40px;
-  margin-top: -40px;
+  padding-top: 10px;
+  margin-top: -10px;
 }
 
 .navbar a:hover {
@@ -230,12 +230,12 @@ body {
 
 .social {
   padding: 20px;
+  margin-top: -270px;
   margin-left: 700px;
   font-size: 28px;
   position: absolute;
-  top: -50px;
+  top: 300px;
   width: 25%;
-  z-index: 1;
   background-color: rgba(193, 86, 255, 0.267);
   border-radius: 30px;
 }
@@ -256,4 +256,33 @@ a.anchor {
   position: relative;
   top: -250px;
   visibility: hidden;
+}
+
+.dog {
+  margin-left: 115px;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.dog h1 {
+  text-align: center;
+  margin-right: 95px;
+  margin-top: 400px;
+  font-size: xxx-large;
+  background-color: rgba(252, 101, 0, 0.7);
+  border-radius: 30px;
+  width: 91.7%;
+}
+
+.column {
+  margin-top: 50px;
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
